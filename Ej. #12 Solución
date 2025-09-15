@@ -1,0 +1,12 @@
+public class Main {
+public static void main (String[] args) {
+    int HorasT = 40;
+    int DineroG = 5000;
+    double Retencion = 12.5;
+    int SalarioB = HorasT * DineroG;
+    double SalarioN = SalarioB * (1-Retencion/100);
+    System.out.print("El Salario Bruto del trabajador es: " +SalarioB + "\n");
+    System.out.print("El Salario Neto del trabajador es: " +SalarioN + "\n");
+    System.out.print("El porcentaje de Retencion en la fuente es: %" +Retencion + "\n");
+    }
+}
