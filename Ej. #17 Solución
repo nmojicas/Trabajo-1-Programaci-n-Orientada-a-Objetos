@@ -1,0 +1,14 @@
+
+import java.util.Scanner;
+public class Main {
+public static void main (String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Por favor ponga un número real que represente el valor del radio en metros ");
+    double Radio = sc.nextDouble();
+    double Area = Math.PI * Math.pow(Radio,2);
+    double Perimetro = Math.PI * 2 * Radio;
+    System.out.print("El área del círculo es " + String.format("%.2f", Area)+ " metros\n");
+    System.out.print("El perímetro del círculo es "+ String.format("%.2f", Perimetro)+ " metros");
+    
+}
+}
