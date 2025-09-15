@@ -1,0 +1,11 @@
+public class Main {
+public static void main (String[] args) {
+    int Suma = 0;
+    int X = 20;
+    Suma = Suma + X;
+    int Y = 40;
+    X = X + (Y*Y);
+    Suma = Suma + (X/Y);
+    System.out.print("El valor de la suma es " + Suma);
+    }
+}
