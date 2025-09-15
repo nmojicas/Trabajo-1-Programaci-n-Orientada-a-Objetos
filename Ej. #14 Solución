@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Main {
+public static void main (String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Por favor ponga un número real ");
+    double NumInicial = sc.nextDouble();
+    double NumCuadrado = Math.pow(NumInicial,2);
+    double NumCubo = Math.pow(NumInicial,3);
+    System.out.print("El cuadrado del número inicial es "+ NumCuadrado + "\n");
+    System.out.print("El cubo del número inicial es "+ NumCubo + "\n");
+}
+}
