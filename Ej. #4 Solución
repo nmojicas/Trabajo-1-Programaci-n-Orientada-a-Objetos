@@ -1,0 +1,13 @@
+# EJERCICIO RESUELTO 4 
+public class Main {
+    public static void main(String[] args) {
+        int edadJuan = 9;
+        int edadAlberto = (2 * edadJuan) / 3;
+        int edadAna = (4 * edadJuan) / 3;
+        int edadMama = edadAlberto + edadJuan + edadAna;
+        System.out.println("Juan tiene " + edadJuan + " años");
+        System.out.println("Alberto tiene " + edadAlberto + " años");
+        System.out.println("Ana tiene  " + edadAna + " años");
+        System.out.println("La madre entonces tiene " + edadMama + " años");
+    }
+}
